@@ -1,0 +1,76 @@
+/*Main.css*/
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6495b2;
+  }
+  
+  .container {
+    width: 80%;
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+  }
+  
+  .left-section img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    border-radius: 8px;
+  }
+  
+  .right-section {
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .toggle-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .form-login h2 {
+    font-size: 20px;
+  }
+  .form-register h2 {
+    font-size: 20px; 
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row; 
+    }
+  
+    .section {
+      flex-direction: row;
+    }
+  
+    .left-section img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  
