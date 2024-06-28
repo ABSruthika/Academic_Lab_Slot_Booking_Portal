@@ -74,3 +74,9 @@
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
   }
   
+  .input-group select:required:invalid {
+    color: gray;
+  }
+  .input-group select option:not([value=""]) {
+    color: #333;
+  }  

@@ -1,4 +1,4 @@
-//Main.js
+// Main.js
 import React, { useState } from 'react';
 import LoginForm from '../auth/LoginForm';
 import RegisterForm from '../auth/RegisterForm';
@@ -22,10 +22,12 @@ function Main() {
           <div className="right-section">
             <h1 className="header">BookMyLab</h1>
             {isLogin ? <LoginForm /> : <RegisterForm />}
-            <p>
-              {isLogin ? "Don't have an account? " : "Already have an account? "}
-              <button onClick={toggleMode}>{isLogin ? "Register" : "Login"}</button>
-            </p>
+            <div className="toggle-buttons">
+              <p>
+                {isLogin ? "Don't have an account? " : "Already have an account? "}
+                <button onClick={toggleMode}>{isLogin ? "Register" : "Login"}</button>
+              </p>
+            </div>
           </div>
         </div>
       </div>

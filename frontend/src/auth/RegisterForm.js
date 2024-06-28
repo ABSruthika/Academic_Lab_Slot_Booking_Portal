@@ -29,7 +29,7 @@ function RegisterForm() {
         <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" />
       </div>
       <div className="input-group">
-        <select value={role} onChange={e => setRole(e.target.value)}>
+        <select value={role} onChange={e => setRole(e.target.value)} required>
           <option value="" disabled hidden>Role</option>
           <option value="student">Student</option>
           <option value="staff">Staff</option>

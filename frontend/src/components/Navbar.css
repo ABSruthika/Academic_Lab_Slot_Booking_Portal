@@ -1,0 +1,39 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #6495b2;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    margin-right: 10px;
+  }
+  
+  .logo-image {
+    width: 40px; 
+    height: auto; 
+  }
+  
+  .navbar-heading {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar-option {
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-option:hover {
+    text-decoration: underline;
+  }
+  
