@@ -1,0 +1,17 @@
+/*BookSlot.css*/
+.book-slot-page {
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .book-slot-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .book-slot-page p {
+    font-size: 16px;
+    color: #666;
+  }
+  

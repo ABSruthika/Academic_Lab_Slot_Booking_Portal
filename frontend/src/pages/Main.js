@@ -1,7 +1,6 @@
 // Main.js
 import React, { useState } from 'react';
-import LoginForm from '../auth/LoginForm';
-import RegisterForm from '../auth/RegisterForm';
+import AuthForm from '../auth/AuthForm';
 import './Main.css';
 import img1 from '../assets/img1.jpg';
 
@@ -21,11 +20,11 @@ function Main() {
           </div>
           <div className="right-section">
             <h1 className="header">BookMyLab</h1>
-            {isLogin ? <LoginForm /> : <RegisterForm />}
+            <AuthForm type={isLogin ? 'login' : 'register'} />
             <div className="toggle-buttons">
               <p>
                 {isLogin ? "Don't have an account? " : "Already have an account? "}
-                <button onClick={toggleMode}>{isLogin ? "Register" : "Login"}</button>
+                <button onClick={toggleMode}>{isLogin ? 'Register' : 'Login'}</button>
               </p>
             </div>
           </div>

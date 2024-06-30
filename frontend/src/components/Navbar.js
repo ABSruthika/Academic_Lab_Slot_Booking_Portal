@@ -1,7 +1,7 @@
-// Navbar.js
+//Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; 
+import './Navbar.css';
 import bitlogo from '../assets/bitlogo.jpg';
 
 function Navbar() {
@@ -14,10 +14,10 @@ function Navbar() {
         <h1 className="navbar-heading">BookMyLab</h1>
       </div>
       <div className="navbar-right">
-        <Link to="/student-dashboard" className="navbar-option">Home</Link>
-        <Link to="/student-dashboard/book-slot" className="navbar-option">Book Slot</Link>
-        <Link to="/student-dashboard/view-slot" className="navbar-option">View Slots</Link>
-        <Link to="/student-dashboard/my-profile" className="navbar-option">My Profile</Link>
+        <Link to="/student-dashboard/home" className="navbar-option">Home</Link>
+        <Link to="/student-dashboard/bookslot" className="navbar-option">Book Slot</Link>
+        <Link to="/student-dashboard/viewslot" className="navbar-option">View Slots</Link>
+        <Link to="/student-dashboard/myprofile" className="navbar-option">My Profile</Link>
         <Link to="/" className="navbar-option">Log Out</Link>
       </div>
     </nav>
