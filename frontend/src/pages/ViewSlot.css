@@ -1,4 +1,5 @@
 /* ViewSlot.css */
 .view-slot-page {
     padding: 20px;
+    min-height: 100vh;
   }

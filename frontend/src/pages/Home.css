@@ -4,10 +4,10 @@
   background-color: #f4f6f8;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-height: calc(100vh - 60px); /* Adjusted to ensure full-page coverage considering footer height */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 100vh;
 }
 
 .home-page h2 {

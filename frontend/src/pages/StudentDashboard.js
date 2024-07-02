@@ -7,6 +7,7 @@ import BookSlot from '../pages/BookSlot';
 import ViewSlot from '../pages/ViewSlot';
 import MyProfile from '../pages/MyProfile';
 import './StudentDashboard.css'; 
+import Footer from '../components/Footer';
 function StudentDashboard() {
   return (
     <div className="student-dashboard">
@@ -20,6 +21,7 @@ function StudentDashboard() {
           <Route path="myprofile" element={<MyProfile />} />
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }
