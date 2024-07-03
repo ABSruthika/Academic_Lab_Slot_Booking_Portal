@@ -1,5 +1,39 @@
-/* ViewSlot.css */
 .view-slot-page {
-    padding: 20px;
-    min-height: 100vh;
-  }
+  padding: 20px;
+  background-color: #f4f6f8;
+  min-height: 100vh; /* Ensure full-page coverage */
+  display: flex;
+  flex-direction: column;
+}
+
+.view-slot-page h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px; /* Reduce bottom margin */
+}
+
+.slots-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Reduce the margin top to minimize gap */
+}
+
+.slots-table th,
+.slots-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.slots-table th {
+  background-color: #f2f2f2;
+}
+
+.slots-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.slots-table tr:hover {
+  background-color: #f1f1f1;
+}
