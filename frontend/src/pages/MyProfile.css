@@ -1,5 +1,42 @@
-/* MyProfile.css */
 .my-profile-page {
-    padding: 20px;
-    min-height: 100vh;
-  }
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+}
+
+.profile-header h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.profile-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.profile-details strong {
+  color: #333;
+}
