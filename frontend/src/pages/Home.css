@@ -6,24 +6,25 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start; /* Align items at the start */
   min-height: 100vh;
 }
 
 .home-page h2 {
   font-size: 24px;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Adjust margin as needed */
 }
 
 .home-page p {
   font-size: 18px;
   color: #666;
-  margin-bottom: 20px;
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 10px; /* Adjust margin as needed */
 }
 
 .notifications {
-  margin-top: 20px;
+  margin-top: 10px; /* Adjust margin to reduce gap */
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -33,21 +34,22 @@
 .notifications h3 {
   font-size: 20px;
   color: #333;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd;
+  margin: 0 0 10px 0; /* Remove top margin and keep bottom margin */
   padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 .notifications ul {
   list-style-type: none;
   padding: 0;
+  margin: 0; /* Remove default margins */
 }
 
 .notifications li {
   font-size: 16px;
   color: #555;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 10px 0; /* Adjust padding as needed */
   border-bottom: 1px solid #eee;
 }
 
@@ -58,14 +60,4 @@
 .notifications li:hover {
   background-color: #f9f9f9;
   transition: background-color 0.3s;
-}
-
-/* Footer styles */
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  position: relative;
-  width: 100%;
 }
